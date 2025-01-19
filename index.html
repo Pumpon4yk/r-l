@@ -22,28 +22,363 @@
   <body class="body">
     <header class="header">
       <div class="container">
-        <a class="logo__link" href="/index.html">
-          <img
-            src="./images/svg/logo.svg"
-            alt="logo"
-            class="icon"
-            width="158px"
-            height="70px"
-          />
-        </a>
+        <div class="container__head">
+          <a class="logo__link" href="/index.html">
+            <img
+              src="./images/svg/logo.svg"
+              alt="logo"
+              class="icon"
+              width="158px"
+              height="70px"
+            />
+          </a>
+          <button class="btn btn__menu" type="button">clik</button>
+        </div>
         <div class="container__nav">
           <nav class="menu">
             <ul class="list nav__list">
-              <li class="nav__list_item"><a class="nav__link" href="#">About us</a></li>
-              <li class="nav__list_item"><a class="nav__link" href="#">Program</a></li>
-              <li class="nav__list_item"><a class="nav__link" href="#">Speaker</a></li>
-              <li class="nav__list_item"><a class="nav__link" href="#">Price</a></li>
-              <li class="nav__list_item"><a class="nav__link" href="#">Reviws</a></li>
-              <li class="nav__list_item"><a class="nav__link" href="#">Contact</a></li>
+              <li class="nav__list-item">
+                <a class="nav__link" href="#about">About us</a>
+              </li>
+              <li class="nav__list-item">
+                <a class="nav__link" href="#program">Program</a>
+              </li>
+              <li class="nav__list-item">
+                <a class="nav__link" href="#speaker">Speaker</a>
+              </li>
+              <li class="nav__list-item">
+                <a class="nav__link" href="#price">Price</a>
+              </li>
+              <li class="nav__list-item">
+                <a class="nav__link" href="#reviews">Reviws</a>
+              </li>
+              <li class="nav__list-item">
+                <a class="nav__link" href="#contact">Contact</a>
+              </li>
             </ul>
           </nav>
         </div>
       </div>
     </header>
+    <main>
+      <section class="section section__hero">
+        <div class="container">
+          <div class="section__hero_content">
+            <h1 class="section__hero_title">
+              Donut Masterclass with the Donut King
+            </h1>
+            <p class="section__hero_description">Hosted by Eva Green</p>
+            <a class="link__register">Register</a>
+            <ul class="social__list list">
+              <li class="social__list-item">
+                <a href="https://x.com" class="link__social" target="_blank">
+                  x
+                  <!-- <svg>
+                    <use></use>
+                  </svg> -->
+                </a>
+              </li>
+              <li class="social__list-item">
+                <a
+                  href="https://instagram.com"
+                  class="link__social"
+                  target="_blank"
+                >
+                  i
+                  <!-- <svg>
+                    <use></use>
+                  </svg> -->
+                </a>
+              </li>
+              <li class="social__list-item">
+                <a
+                  href="https://facebook.com"
+                  class="link__social"
+                  target="_blank"
+                >
+                  f
+                  <!-- <svg>
+                    <use></use>
+                  </svg> -->
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="section section__about" id="about">
+        <div class="container">
+          <img src="#" alt="donuts" />
+          <h2 class="title">About us</h2>
+          <p class="discrip">
+            Oh My Donut is the shop which adores tasty deserts and spend hours
+            to create sophisticated donuts which will save the world! Eva has
+            been baking since she was six years old and over the last 49 years,
+            she has created hundreds of cakes for weddings and has baked for
+            many celebrities. Eva and our shop have received multiple awards &
+            recognition for excellence.
+          </p>
+          <button class="btn btn__read-more" type="button">Read more</button>
+        </div>
+      </section>
+      <section class="section section__program" id="program">
+        <div class="container">
+          <h2 class="title">Program</h2>
+          <p class="discrip">
+            Indulge in this immersive sweet treat experience with The Chef Donut
+            Queen in her New York donut shop!
+          </p>
+          <ul class="program__list">
+            <li class="program__list-item">A stand up history of donuts</li>
+            <li class="program__list-item">Make 3 donut flavors of your choice</li>
+            <li class="program__list-item">Enjoy all-you-can-eat donuts</li>
+            <li class="program__list-item">Cocktail pairings and coffee included</li>
+            <li class="program__list-item">
+              Photoshoot by professional photographer
+            </li>
+            <li class="program__list-item">Secret receipt of cooking from Eva</li>
+            <li class="program__list-item">All products are included in the price</li>
+          </ul>
+          <button class="btn btn__read-more" type="button">Read more</button>
+          <ul class="program__galery">
+            <li class="program__galery-item">
+              <img src="#" alt="event" class="item__img" />
+              <p class="item__title">Type of the event</p>
+              <span class="item__detaling">Cooking classes</span>
+            </li>
+            <li class="program__galery-item">
+              <img src="#" alt="guests" class="item__img" />
+              <p class="item__title">Number of guests</p>
+              <span class="item__detaling">1 to 20</span>
+            </li>
+            <li class="program__galery-item">
+              <img src="#" alt="time" class="item__img" />
+              <p class="item__title">Time of the event</p>
+              <span class="item__detaling">18:30 (2.5 hours)</span>
+            </li>
+            <li class="program__galery-item">
+              <img src="#" alt="host speaks" class="item__img" />
+              <p class="item__title">The host speaks</p>
+              <span class="item__detaling">English, French</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section" id="speaker">
+        <div class="container">
+          <h2 class="title">Speakers</h2>
+          <ul class="speakers__list">
+            <li class="speakers__list-item">
+              <img src="#" alt="speaker" class="speaker__img" />
+              <h3 class="name">Molly Rivera</h3>
+              <p class="profession">Pastry chef, master chocolatier of Spain</p>
+            </li>
+            <li class="speakers__list-item">
+              <img src="#" alt="speaker" class="speaker__img" />
+              <h3 class="name">Sophia Clark</h3>
+              <p class="profession">Сulinary school pastry chef</p>
+            </li>
+            <li class="speakers__list-item">
+              <img src="#" alt="speaker" class="speaker__img" />
+              <h3 class="name">Isabella Taylor</h3>
+              <p class="profession">Сonsultant in the art of confectionery</p>
+            </li>
+            <li class="speakers__list-item">
+              <img src="#" alt="speaker" class="speaker__img" />
+              <h3 class="name">Evelyn Miller</h3>
+              <p class="profession">Master- chocolatier in Spain</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section" id="price">
+        <div class="container">
+          <h2 class="title">Price</h2>
+          <ul class="price__cards">
+            <li class="price__card">
+              <h3 class="title__card">Easy start</h3>
+              <ul class="price__list">
+                <li class="price__list-item">
+                  features of yeast dough preparation
+                </li>
+                <li class="price__list-item">
+                  preparation of liquid caramel for stuffing
+                </li>
+                <li class="price__list-item">
+                  preparation of raspberry and strawberry filling
+                </li>
+                <li class="price__list-item">fry and glaze donuts</li>
+                <a href="" class="link__register">Register</a>
+              </ul>
+            </li>
+            <li class="price__card">
+              <h3 class="title__card">I want delicious donuts</h3>
+              <ul class="price__list">
+                <li class="price__list-item">
+                  features of yeast dough preparation
+                </li>
+                <li class="price__list-item">
+                  preparation of liquid caramel for stuffing
+                </li>
+                <li class="price__list-item">
+                  preparation of raspberry and strawberry filling
+                </li>
+                <li class="price__list-item">melt chocolate for decoration</li>
+                <li class="price__list-item">fry and glaze donuts</li>
+                <li class="price__list-item">
+                  donut decoration. painting and various techniques
+                </li>
+                <a href="" class="link__register">Register</a>
+              </ul>
+            </li>
+            <li class="price__card">
+              <h3 class="title__card">Premium</h3>
+              <ul class="price__list">
+                <li class="price__list-item">
+                  features of yeast dough preparation
+                </li>
+                <li class="price__list-item">
+                  preparation of liquid caramel for stuffing
+                </li>
+                <li class="price__list-item">
+                  preparation of raspberry and strawberry filling
+                </li>
+                <li class="price__list-item">melt chocolate for decoration</li>
+                <li class="price__list-item">fry and glaze donuts</li>
+                <li class="price__list-item">
+                  donut decoration. painting and various techniques
+                </li>
+                <li class="price__list-item">
+                  After party and donut tasting with speakers
+                </li>
+                <li class="price__list-item">
+                  2 private lessons with one of the speakers
+                </li>
+                <a href="" class="link__register">Register</a>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section" id="reviews">
+        <div class="container">
+          <h2 class="title">Reviews</h2>
+          <ul class="reviews__list">
+            <li class="reviews__list-item" id="1">
+              <img src="/" alt="john" />
+              <span></span>
+              <p class="name__review">John</p>
+              <p class="review__text">
+                Last time I have visited a cooking course by Eva I was impressed
+                with the way she explained everything to people. You can be sure
+                you will manage to cook a delicious dish even if it is your
+                first time in the kitchen! Thank you so much for the
+                masterclass! Looking forward to the next one and highly
+                recommend it to everyone!
+              </p>
+            </li>
+            <li class="reviews__list-item" id="2">
+              <img src="/" alt="will" />
+              <span></span>
+              <p class="name__review">Will</p>
+              <p class="review__text">
+                Last time I have visited a cooking course by Eva I was impressed
+                with the way she explained everything to people. You can be sure
+                you will manage to cook a delicious dish even if it is your
+                first time in the kitchen! Thank you so much for the
+                masterclass! Looking forward to the next one and highly
+                recommend it to everyone!
+              </p>
+            </li>
+            <li class="reviews__list-item" id="3">
+              <img src="/" alt="elisabeth" />
+              <span></span>
+              <p class="name__review">Elisabeth</p>
+              <p class="review__text">
+                Last time I have visited a cooking course by Eva I was impressed
+                with the way she explained everything to people. You can be sure
+                you will manage to cook a delicious dish even if it is your
+                first time in the kitchen! Thank you so much for the
+                masterclass! Looking forward to the next one and highly
+                recommend it to everyone!
+              </p>
+            </li>
+          </ul>
+          <span class="pagination__mark"></span>
+        </div>
+      </section>
+      <sections class="sections">
+        <div class="container">
+          <h2 class="title">Registration</h2>
+          <div class="register__container">
+            <p class="time__mitt">May 23, 11:00 New York</p>
+            <form action="">
+              <div>
+                <p class="titel__form">
+                  Apply your personal info for registration
+                </p>
+                <input type="text" type="text" />
+                <input type="text" type="tel" />
+                <input type="text" type="email" />
+              </div>
+              <button class="btn__register">Register</button>
+            </form>
+          </div>
+        </div>
+      </sections>
+      <section class="section" id="contact">
+        <dic class="container">
+          <h2 class="title">Contact</h2>
+          <p class="discript">We will answer any question!</p>
+          <form action="" class="contact__form">
+            <input type="email" />
+            <input type="text" />
+            <button>Send</button>
+          </form>
+          <ul class="social__list list">
+            <li class="social__list-item">
+              <a href="https://x.com" class="link__social" target="_blank">
+                x
+                <!-- <svg>
+                  <use></use>
+                </svg> -->
+              </a>
+            </li>
+            <li class="social__list-item">
+              <a
+                href="https://instagram.com"
+                class="link__social"
+                target="_blank"
+              >
+                i
+                <!-- <svg>
+                  <use></use>
+                </svg> -->
+              </a>
+            </li>
+            <li class="social__list-item">
+              <a
+                href="https://facebook.com"
+                class="link__social"
+                target="_blank"
+              >
+                f
+                <!-- <svg>
+                  <use></use>
+                </svg> -->
+              </a>
+            </li>
+          </ul>
+        </dic>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <address class="address">
+          <a href="tel:(910)222-8855">(910)222-8855</a>
+          <p class="city">New York</p>
+        </address>
+      </div>
+    </footer>
   </body>
 </html>
