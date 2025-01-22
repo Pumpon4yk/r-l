@@ -1,3 +1,31 @@
+:root{
+  --color-pink: F3848C;
+  --color-black: F3848C;
+  --color-white: FFFFFF;
+  --color-white-second: F6F7F7;
+
+  /* text */
+  --color--header-hero-text: 3C322D;
+  --color-header-text: 2E2520;
+  --color-text-main-black: 3C322D;
+  --color-text-second-bleck: 2E2520;
+  --color-text-wite: var(--color-white);
+  --color-text-wite-second: var(--color-white-second);
+
+  /* bgc*/
+  --color-white-bg: FAFBFB;
+  --color-black-bg: 3C322D;
+  --color-bg-main: FAFBFB;
+  --color-bg-body: EEEDED;
+  --color-bg-menu: E5E2E3;
+  --color-gradient-first-bg: F86E67A1;
+  --color-gradient-second-bg: FD568FD3;
+}
+
+*{
+  box-sizing: border-box;
+}
+
 h1,
 h2,
 h3,
@@ -9,14 +37,14 @@ p {
 }
 
 body{
-  font-family: Montserrat;
+font-family: Montserrat;
 font-size: 16px;
 font-weight: 400;
 line-height: 1.22;
 text-align: left;
 text-underline-position: from-font;
 text-decoration-skip-ink: none;
-
+color: var(--color-text-main-black);
 }
 
 img {
@@ -28,6 +56,7 @@ img {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 ul,
@@ -38,10 +67,11 @@ ol {
 }
 
 .iko::before{
-  content: url('../images/svg/sprite.svg#iko');
+  content: url(../images/svg/Іко.svg);
   display: inline-block;
-  width: 32px;
-  height: 32px;
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
 }
 
 
